@@ -1,5 +1,5 @@
 # Nagios_Installation_script
-automated installation for Nagios Ubuntu, install Nagios, Thruk Grafana, InfluxDB, NagFlux, Histou
+Automated installation for Nagios Ubuntu, install Nagios, Thruk Grafana, InfluxDB, NagFlux, Histou
 
 Download file and edit your server IP for Histou configurartion.
 Line 202 put you server IP for Histou
