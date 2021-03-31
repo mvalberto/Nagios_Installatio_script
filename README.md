@@ -1,2 +1,8 @@
-# Nagios_Installatio_script
-automated installation for Nagios Ubuntu
+# Nagios_Installation_script
+automated installation for Nagios Ubuntu, install Nagios, Thruk Grafana, InfluxDB, NagFlux, Histou
+
+Download file and edit your server IP for Histou configurartion.
+Line 202 put you server IP for Histou
+ 
+After install Add in your host service definitions the next line.
+action_url              http://your_host_IP:3000/dashboard/script/histou.js?host=$HOSTNAME$&service=$SERVICEDESC$
