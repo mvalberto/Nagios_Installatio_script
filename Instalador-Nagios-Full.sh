@@ -108,7 +108,7 @@ systemctl enable nagios
 
 apt-get install -y xinetd
 cd /tmp
-wget https://38924918.servicio-online.net/check_mk-1.2.8p27.gz
+wget https://amartinv.es/check_mk-1.2.8p27.gz
 tar xvfz check_mk-1.2.8p27.gz
 ./configure --with-nagios4
 make
