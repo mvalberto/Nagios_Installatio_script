@@ -35,9 +35,9 @@ usermod -a -G nagcmd www-data
 #Descargar Nagios en /tmp
 
 cd /tmp/
-wget https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-4.4.6/nagios-4.4.6.tar.gz
-tar -zxvf nagios-4.4.6.tar.gz
-cd /tmp/nagios-4.4.6
+wget https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-4.4.8/nagios-4.4.8.tar.gz
+tar -zxvf nagios-4.4.8.tar.gz
+cd /tmp/nagios-4.4.8
 
 #Compilar e Instalar Nagios
 
